@@ -7,7 +7,7 @@ import RNPermissions, {
   PERMISSIONS,
   PermissionStatus,
 } from 'react-native-permissions';
-import theme from './theme';
+import {theme} from './theme';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const {SIRI, ...PERMISSIONS_IOS} = PERMISSIONS.IOS; // remove siri (certificate required)
